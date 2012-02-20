@@ -1,0 +1,7 @@
+services:
+    fivestar_assets_extra.asset.request_package:
+        class: Fivestar\AssetsExtraBundle\Templating\Asset\RequestPackage
+        arguments:
+            - @request
+        public: false
+        scope: request
